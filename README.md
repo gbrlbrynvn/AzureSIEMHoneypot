@@ -1,7 +1,7 @@
 <h1>Setting up Microsoft Sentinel (Azure SIEM) <br />to display global attacks on honeypot</h1>
 
 <h2>Description</h2>
-In this project, I created an exposed virtual machine with Windows Firewall turned off to entice global attacks. I configured a log repository in Azure and used a custom PowerShell script, then setup Microsoft Sentinel (Azure's SIEM) to read the data and plot the attacks on a map. This project helped me get a good grasp on configuring and navigating a SIEM, as well as its other capabilities, albeit there are still tons to learn about. The diagram is as follows:
+In this project, I created an exposed virtual machine with Windows Firewall turned off to entice global attacks. I configured a log repository in Azure and used a custom PowerShell script, then setup Microsoft Sentinel (Azure's SIEM) to read the data and plot the attacks on a map. This project helped me get a good grasp on configuring and navigating a SIEM, as well as its other capabilities, albeit there are still tons to learn about. It also adds on the fact that there will always be someone around the world looking for vulnerable networks, which says a lot about how important security is. The diagram I emulated is as follows:
 <img src="https://imgur.com/5nrZcwb.png" height="80%" width="80%" alt="Network Diagram"/>
 <br />
 - <b>Create and configure a VM using Microsoft Azure's service with very low security settings.</b> <br />
@@ -95,7 +95,7 @@ We'll leave our virtual machine overnight to allow the attack attempts to increa
 <img src="https://i.imgur.com/c4MvGES.png" height="80%" width="80%"/>
 <br />  
 <br />
-After approximately 24 hours and hundreds of failed logon attempts later, this is what our world map looks like inside Microsoft Sentinel (Azure SIEM).<br/>
+After approximately 24 hours and hundreds of failed logon attempts from all over the world, this is what our world map looks like inside Microsoft Sentinel (Azure SIEM).<br/>
 <img src="https://i.imgur.com/lastna.png" height="80%" width="80%"/>
 <br />  
 <br />
