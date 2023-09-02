@@ -5,7 +5,7 @@ In this project, I created an exposed virtual machine with Windows Firewall turn
 <img src="https://imgur.com/5nrZcwb.png" height="80%" width="80%" alt="Network Diagram"/>
 <br />
 - <b>Create and configure a VM using Microsoft Azure's service with very low security settings.</b> <br />
-- <b>Use custom PowerShell to forward extracted data to third party API to obtain geolocation data..</b> <br />
+- <b>Use custom PowerShell to forward extracted data to third party API to obtain geolocation data.</b> <br />
 - <b>Setup and configure Log Analytics Workspace in Azure to ingest custom logs containing geographic information.</b> <br />
 - <b>Configure Microsoft Sentinel (Azure SIEM) workbook to display global attack data on world map using custom fields in Log Analytics Workspace. </b> <br />
 
@@ -95,8 +95,8 @@ We'll leave our virtual machine overnight to allow the attack attempts to increa
 <img src="https://i.imgur.com/c4MvGES.png" height="80%" width="80%"/>
 <br />  
 <br />
-After approximately 24 hours and hundreds of failed logon attempts from all over the world, this is what our world map looks like inside Microsoft Sentinel (Azure SIEM).<br/>
-<img src="https://i.imgur.com/lastna.png" height="80%" width="80%"/>
+After approximately 24 hours and hundreds of failed logon attempts from all over the world, <br />this is what our world map looks like inside Microsoft Sentinel (Azure SIEM).<br/>
+<img src="https://i.imgur.com/UPjjvWu.png" height="80%" width="80%"/>
 <br />  
 <br />
 <b>This project will be worked on further in the future to create more complex configurations and scenarios.</b>
